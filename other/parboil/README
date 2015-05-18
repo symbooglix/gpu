@@ -1,0 +1,12 @@
+Kernels are arranged by test/kernel, with the test/_data folder containing a
+file of intercepted parameters, named by the dataset they were gotten from.
+
+
+
+tpacf fails in the original parboil tests on a Debian Wheezy VM with AMD APP,
+and so sizes and parameters may be wrong.
+
+It compiles/runs/finishes all fine, but returns the wrong answer according to
+the parboil test hook. This could be a bug in their code, some issue with
+AMDAPP, or not liking the CPU profile - all the parboil tests ask for GPU, I
+replaced that with CPU to get them to run, but they've otherwise all been OK.

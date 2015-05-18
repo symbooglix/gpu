@@ -1,0 +1,3 @@
+ --local_size=[61,1] --num_groups=[480,268] --params=[mb_sad_calc,0000000000A5B850,00000000009C7A80,00000078,00000043,0000000000A9C8B0]
+ --local_size=[32,4] --num_groups=[120,67] --params=[larger_sad_calc_8,0000000000A5B850,00000078,00000043]
+ --local_size=[32,1] --num_groups=[120,67] --params=[larger_sad_calc_16,0000000000A5B850,00000078,00000043]
